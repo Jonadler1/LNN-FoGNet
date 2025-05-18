@@ -68,9 +68,13 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # Install core deps
 pip install "tensorflow~=2.18" keras==3.6 numpy scikit-learn matplotlib seaborn tqdm
-###
+
+
 ---
----
+
+
+
+
 ## 📦 Dataset
 
 # inside the repo root
