@@ -72,9 +72,10 @@ pip install "tensorflow~=2.18" keras==3.6 numpy scikit-learn matplotlib seaborn 
 ---
 
 ## 📦 Dataset
-
+```bash
 # inside the repo root
 unzip fog_data.zip -d fog_data
 
 fog.py expects ./fog_data/ to contain the raw .txt files exactly as provided by Daphnet.
+
 
