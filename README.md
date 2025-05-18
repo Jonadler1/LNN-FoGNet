@@ -89,6 +89,7 @@ Train an LNN with 32 hidden units for 20 epochs, 5-fold CV
 **python fog.py --model ltc --size 32 --epochs 20 --k 5**
 
 Other options:
+
  **--model   lstm | ctrnn | ltc**
  
  **--size    hidden units (default 32)**
