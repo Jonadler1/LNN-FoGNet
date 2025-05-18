@@ -15,7 +15,7 @@ Freezing-of-Gait (FoG) is one of the most disabling symptoms of Parkinson’s di
 * **Dataset** [Daphnet FoG](https://archive.ics.uci.edu/ml/datasets/daphnet+freezing+of+gait)  
 * **Models compared** Liquid Neural Network (LNN / LTC)  |  Long Short-Term Memory (LSTM)  |  Continuous-Time RNN (CTRNN).  
 * **Key results**  
-  * Mean F1 ≈ 0.95 on 5-fold subject-wise CV.  
+  * Mean F1 ≈ 0.95 on 5-fold subject-wise Cross-Validation (CV).  
   * LNN converges in **≈½ the epochs and 1/10th the training time** of LSTM.  
   * Inference latency per step is **tens-of-times faster** than LSTM on the same hardware.
 
@@ -85,7 +85,7 @@ fog.py expects ./fog_data/ to contain the raw .txt files exactly as provided by 
 
 The fog.py driver covers the entire pipeline: normalization → windowing (+ micro-segmentation) → k-fold subject-wise CV → metrics aggregation.
 
-For example, to train an LNN with 32 hidden units for 20 epochs, 5-fold CV
+For example, to train an LNN with 32 hidden units for 20 epochs and 5-fold CV, use the following command in the terminal:
 
 **python fog.py --model ltc --size 32 --epochs 20 --k 5**
 
