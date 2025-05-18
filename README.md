@@ -1,5 +1,5 @@
 # LNN-FoGNet
-# LNN-FoGNet – Liquid Neural Networks for Real-Time Freezing-of-Gait Detection
+# LNN-FoGNet – Exploring Liquid Neural Networks for Real-Time Freezing-of-Gait Detection
 
 <div align="center">
 <img src="https://img.shields.io/badge/python-3.9-blue" />
