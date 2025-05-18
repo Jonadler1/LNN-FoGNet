@@ -70,9 +70,9 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install "tensorflow~=2.18" keras==3.6 numpy scikit-learn matplotlib seaborn tqdm
 
 ---
-
+---
 ## 📦 Dataset
-```bash
+
 # inside the repo root
 unzip fog_data.zip -d fog_data
 
