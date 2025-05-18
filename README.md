@@ -74,7 +74,7 @@ pip install "tensorflow~=2.18" keras==3.6 numpy scikit-learn matplotlib seaborn 
 
 ## 📦 Dataset
 
-Inside the repo root
+Inside the repo root:
 **unzip fog_data.zip -d fog_data**
 
 fog.py expects ./fog_data/ to contain the raw .txt files exactly as provided by Daphnet.
@@ -109,7 +109,7 @@ Generate publication-quality plots once training is complete:
 
 **python vis.py**
 
-Figures are saved under results/figures/.
+Those figures are saved under results/figures/.
 
 **vis_fog_events.py** optionally displays raw sensor traces of FoG vs non-FoG windows.
 
@@ -117,4 +117,6 @@ Figures are saved under results/figures/.
 
 ## 📄 License
 
-Released under the **MIT License** – see LICENSE.
+Released under the **MIT License**.
+
+---
