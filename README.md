@@ -26,6 +26,7 @@ Freezing-of-Gait (FoG) is one of the most disabling symptoms of Parkinson’s di
 ## 🗂️ Repository layout
 
 ├── fog.py # Main training / evaluation script
+
 ├── ltc_model.py # LNN / Liquid-Time-Constant cell
 ├── ctrnn_model.py # CTRNN cell and helpers
 ├── vis.py # Training & ROC/PR visualisations
