@@ -90,8 +90,11 @@ Train an LNN with 32 hidden units for 20 epochs, 5-fold CV
 
 Other options:
  **--model   lstm | ctrnn | ltc**
+ 
  **--size    hidden units (default 32)**
+ 
  **--epochs  max epochs   (default 50)**
+ 
  **--k       CV folds     (default 5)**
 
 Outputs (per fold and averaged) are written to results/fog/.
