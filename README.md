@@ -19,7 +19,7 @@ Freezing-of-Gait (FoG) is one of the most disabling symptoms of Parkinson’s di
   * LNN converges in **≈½ the epochs and 1/10th the training time** of LSTM.  
   * Inference latency per step is **tens-of-times faster** than LSTM on the same hardware.
 
-For a full scientific write-up see **JA_Final_Project_Report_2025_DY.docx** in this repository.
+
 
 ---
 
