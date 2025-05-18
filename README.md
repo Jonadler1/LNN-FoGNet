@@ -74,9 +74,25 @@ pip install "tensorflow~=2.18" keras==3.6 numpy scikit-learn matplotlib seaborn 
 
 ## 📦 Dataset
 
-#### Inside the repo root
-unzip fog_data.zip -d fog_data
+Inside the repo root
+**unzip fog_data.zip -d fog_data**
 
 fog.py expects ./fog_data/ to contain the raw .txt files exactly as provided by Daphnet.
 
+---
+
+## 🚀 Training & evaluation
+
+The fog.py driver covers the entire pipeline: normalization → windowing (+ micro-segmentation) → k-fold subject-wise CV → metrics aggregation.
+
+Train an LNN with 32 hidden units for 20 epochs, 5-fold CV
+**python fog.py --model ltc --size 32 --epochs 20 --k 5**
+
+Other options:
+ **--model   lstm | ctrnn | ltc**
+ **--size    hidden units (default 32)**
+ **--epochs  max epochs   (default 50)**
+ **--k       CV folds     (default 5)**
+
+Outputs (per fold and averaged) are written to results/fog/.
 
