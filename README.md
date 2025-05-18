@@ -109,4 +109,5 @@ Generate publication-quality plots once training is complete:
 **python vis.py**
 
 Figures are saved under results/figures/.
+
 **vis_fog_events.py** optionally displays raw sensor traces of FoG vs non-FoG windows.
