@@ -85,7 +85,8 @@ fog.py expects ./fog_data/ to contain the raw .txt files exactly as provided by 
 
 The fog.py driver covers the entire pipeline: normalization → windowing (+ micro-segmentation) → k-fold subject-wise CV → metrics aggregation.
 
-Train an LNN with 32 hidden units for 20 epochs, 5-fold CV
+For example, to train an LNN with 32 hidden units for 20 epochs, 5-fold CV
+
 **python fog.py --model ltc --size 32 --epochs 20 --k 5**
 
 Other options:
