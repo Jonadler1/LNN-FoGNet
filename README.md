@@ -10,7 +10,7 @@
 
 ## ✨ Project summary
 Freezing-of-Gait (FoG) is one of the most disabling symptoms of Parkinson’s disease.  
-**LNN-FoGNet** explores whether **Liquid Neural Networks (LNNs)**—recurrent models whose neurons adapt their own time-constants—can deliver **LSTM-grade accuracy** while remaining **smaller, faster, and more energy-efficient** for round-the-clock wearables.
+**LNN-FoGNet** investigates whether **Liquid Neural Networks (LNNs)**—recurrent models whose neurons adapt their own time-constants—can match or exceed the accuracy of both **LSTM** and **continuous-time RNN (CTRNN)** while remaining **smaller, faster, and more energy-efficient** for round-the-clock wearables.
 
 * **Dataset**: [Daphnet FoG](https://archive.ics.uci.edu/ml/datasets/daphnet+freezing+of+gait)  
 * **Models compared**: Liquid Neural Network (LNN / LTC)  |  Long Short-Term Memory (LSTM)  |  Continuous-Time RNN (CTRNN).  
